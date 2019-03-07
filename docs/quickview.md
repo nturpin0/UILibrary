@@ -1,7 +1,8 @@
-# ShowCard - Show result/images in a nicely formatted card with an icon
+# ShowCard 
+Show result/images in a nicely formatted card with an icon
 Shows a Card has a blue title block, where you can put an icon, and a title. Markdown wont work inside the card. Use the <code> ```<br>``` </code> tag to break up text. 
 
-#### INPUT
+INPUT
 - Process: ShowCard
 - Background: (optional) Background color
 - Icon: (optional) Name of the icon to be shown. Icons are from font-awesome, and require the font-awesome name eg book-open, home.
@@ -9,35 +10,35 @@ Shows a Card has a blue title block, where you can put an icon, and a title. Mar
 - Text: (required) Text to be shown on card.
 - Image: (optional) Base64EncodedImage
 
-#### OUTPUT
+OUTPUT
 Outputs the html created
 
 # Show Result - Simple formatted results
 Show result is for a simple showing of text/markdown but nicely formatted. Just send text in to show text with nice formatted fonts.
 
-#### INPUT
+INPUT
 - Process: Show Result
 - Title: (optional) Title to be shown at top of the quick view window
 - Background: (optional) Background color, you can use web color names, or hex values
 - TextColor: (optional) Color of text, web color names.
 - TextSize: (optional) XL, XS etc
 - Text: (required) Text to be shown, this can include Markdown.
-#### OUTPUT
+OUTPUT
 Output the html created
 
-# Show List - Show a list of results
-Showing a list in quickview.
-### INPUT
+# Show List
+Show a list of results in quickview.
+INPUT
 - Process: ShowList
 - Text: Markdown list to be shown
 - Title: Title to be shown
 - Background: (optional) Background Color
 - TextSize: (optional) XL/L/M/S/XS
 
-# Highlight - Highlight a word in your text
+# Highlight
 Highlights a particular word in displayed text.
 
-#### INPUT
+INPUT
 - Process: Highlight
 - Text: Text to highlight and show
 - Search: Search term
@@ -47,30 +48,30 @@ Highlights a particular word in displayed text.
 - TextColor: (optional)
 - TextSize: (optional) 
 
-#### OUTPUT
+OUTPUT
 Count of matching words
 
-# SpeedRead - Quickly read text
+# SpeedRead
 A speed reader, based on the spritz speed reader to allow you to read a large amount of text quickly.
 
-#### INPUT
+INPUT
 - Process: SpeedRead
 - Text: Text to Read
 - Speed: (optional) 250 is default
 - Title: (optional) Title for quick view window
 
-#### OUTPUT
+OUTPUT
 
 
 
-### OUTPUT
+OUTPUT
 Generated html
 
 
 # Beep - A beep
 The sosumi beep, not sure about using system sounds, access might not always be there. Maybe
 
-#### INPUT
+INPUT
 - Process: Beep
-#### OUTPUT
+OUTPUT
 None
