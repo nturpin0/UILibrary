@@ -22,20 +22,5 @@ OUTPUT
 
 Outputs the html created
 
-## Timeline - Show a timeline 
-Shows a timeline
 
-INPUT
-```
-- Process: Timeline
-- Text: data in format below
-  - Title,Date,Text to show
-  - Title,Date,
-- Title: (optional) Title of timeline/viewer title
-- Background: (optional) Background Color
-- TextColor: (optional) TextColor
-```
-
-OUTPUT
-html generated
 

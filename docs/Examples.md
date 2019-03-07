@@ -1,2 +1,3 @@
 # Examples
 
+![Rain](Rain.jpg)

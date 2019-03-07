@@ -78,10 +78,28 @@ OUTPUT
 Generated html
 
 
-## Beep - A beep
-The sosumi beep, not sure about using system sounds, access might not always be there. Maybe
+## Beep 
+The sosumi beep, not sure about using system sounds, access might not always be there.
 
 INPUT
 - Process: Beep
 OUTPUT
 None
+
+
+## Timeline
+Shows a timeline
+
+INPUT
+```
+- Process: Timeline
+- Text: data in format below
+  - Title,Date,Text to show
+  - Title,Date,
+- Title: (optional) Title of timeline/viewer title
+- Background: (optional) Background Color
+- TextColor: (optional) TextColor
+```
+
+OUTPUT
+html generated
