@@ -1,5 +1,19 @@
 # Quickview
 
+## Show Result
+Simple formatted results. Show result is for a simple showing of text/markdown but nicely formatted. Just send text in to show text with nice formatted fonts.
+```
+INPUT
+- Process: Show Result
+- Title: (optional) Title to be shown at top of the quick view window
+- Background: (optional) Background color, you can use web color names, or hex values
+- TextColor: (optional) Color of text, web color names.
+- TextSize: (optional) XL, XS etc
+- Text: (required) Text to be shown, this can include Markdown.
+```
+OUTPUT
+Output the html created
+
 ## ShowCard 
 Show result/images in a nicely formatted card with an icon
 Shows a Card has a blue title block, where you can put an icon, and a title. Markdown wont work inside the card. Use the <code> ```<br>``` </code> tag to break up text. 
@@ -16,19 +30,6 @@ INPUT
 OUTPUT
 Outputs the html created
 
-## Show Result - Simple formatted results
-Show result is for a simple showing of text/markdown but nicely formatted. Just send text in to show text with nice formatted fonts.
-```
-INPUT
-- Process: Show Result
-- Title: (optional) Title to be shown at top of the quick view window
-- Background: (optional) Background color, you can use web color names, or hex values
-- TextColor: (optional) Color of text, web color names.
-- TextSize: (optional) XL, XS etc
-- Text: (required) Text to be shown, this can include Markdown.
-```
-OUTPUT
-Output the html created
 
 ## Show List
 Show a list of results in quickview.
