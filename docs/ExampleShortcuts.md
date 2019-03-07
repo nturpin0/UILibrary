@@ -1,1 +1,1 @@
-
+# Example Shortcuts
