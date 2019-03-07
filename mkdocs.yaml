@@ -1,0 +1,11 @@
+site_name: UILibrary
+repo_url: https://github.com/nturpin0/UILibrary
+nav:
+  - Getting started: Getting Started.md
+  - Quickview: quickview.md
+  - Tables: components.md
+  - Shortcuts: shortcuts.md
+  - Menus: Menus.md
+  - Thanks: thanks.md
+theme:
+  name: readthedocs
