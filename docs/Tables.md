@@ -1,7 +1,7 @@
 # ShowTable - CSV, HTML, or Markdown results shown as a responsive table
 Show tables by sending in simple data in one of several formats.
 
-#### INPUT
+INPUT
 - Process: ShowTable
 - Title: (optional) Title to be shown on the QuickView window.
 - Text: (required) Text containing the HTML or Markdown to be displayed
@@ -13,13 +13,13 @@ Show tables by sending in simple data in one of several formats.
       - 123,234,2342,232
       - 34,234,23423,2342 
  
-#### OUTPUT
+OUTPUT
 Outputs the html created
 
 # Timeline - Show a timeline 
 Shows a timeline
 
-#### INPUT
+INPUT
 - Process: Timeline
 - Text: data in format below
   - Title,Date,Text to show
@@ -29,6 +29,6 @@ Shows a timeline
 - TextColor: (optional) TextColor
 
 
-#### OUTPUT
+OUTPUT
 html generated
 
