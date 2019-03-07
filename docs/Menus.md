@@ -57,6 +57,6 @@ Send lines of text to show a list with images, or just use it for a left justifi
 - Title: Title to be shown at the top of the list displayed.
 - Type: (optional) IconName
   - If IconName is used you can enter  a name of an icon rather than use the Base 64 encoded option
-
+ 
 #### OUTPUT
 Selected item as a vcf card
