@@ -12,7 +12,7 @@ Show tables by sending in simple data in one of several formats.
       - column1,column2,column3,column4 
       - 123,234,2342,232
       - 34,234,23423,2342 
-
+ 
 #### OUTPUT
 Outputs the html created
 
