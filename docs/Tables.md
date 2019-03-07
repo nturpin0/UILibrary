@@ -1,4 +1,6 @@
-# ShowTable 
+# Tables
+
+## ShowTable 
 CSV, HTML, or Markdown results shown as a responsive table
 Show tables by sending in simple data in one of several formats.
 
@@ -20,7 +22,7 @@ OUTPUT
 
 Outputs the html created
 
-# Timeline - Show a timeline 
+## Timeline - Show a timeline 
 Shows a timeline
 
 INPUT

@@ -1,4 +1,6 @@
-# ShowCard 
+# Quickview
+
+## ShowCard 
 Show result/images in a nicely formatted card with an icon
 Shows a Card has a blue title block, where you can put an icon, and a title. Markdown wont work inside the card. Use the <code> ```<br>``` </code> tag to break up text. 
 
@@ -14,7 +16,7 @@ INPUT
 OUTPUT
 Outputs the html created
 
-# Show Result - Simple formatted results
+## Show Result - Simple formatted results
 Show result is for a simple showing of text/markdown but nicely formatted. Just send text in to show text with nice formatted fonts.
 ```
 INPUT
@@ -28,7 +30,7 @@ INPUT
 OUTPUT
 Output the html created
 
-# Show List
+## Show List
 Show a list of results in quickview.
 ```
 INPUT
@@ -39,7 +41,7 @@ INPUT
 - TextSize: (optional) XL/L/M/S/XS
 ```
 
-# Highlight
+## Highlight
 Highlights a particular word in displayed text.
 
 INPUT
@@ -57,7 +59,7 @@ INPUT
 OUTPUT
 Count of matching words
 
-# SpeedRead
+## SpeedRead
 A speed reader, based on the spritz speed reader to allow you to read a large amount of text quickly.
 
 INPUT
@@ -75,7 +77,7 @@ OUTPUT
 Generated html
 
 
-# Beep - A beep
+## Beep - A beep
 The sosumi beep, not sure about using system sounds, access might not always be there. Maybe
 
 INPUT

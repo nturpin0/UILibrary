@@ -1,4 +1,6 @@
-# MenuList
+# Menus
+
+## MenuList
 Images in your lists/menu. Send lines of text to show a list with images, or just use it for a left justified menu with no images, or just use the name of an icon and dont use any images.
 
 [List of icons names that can be used](https://gist.github.com/nturpin0/32e74627f47da91dd9aa979506d6d8f7)
@@ -16,12 +18,12 @@ INPUT
   - If IconName is used you can enter  a name of an icon rather than use the Base 64 encoded option
 ```
 
-OUTPUT
 
 Selected item as a vcf card
 
 
-# Choose Shortcut
+OUTPUT
+## Choose Shortcut
 Shows a list of your Shortcuts in Alphabetical Order, with a Search function at the top.
 ```
 INPUT
@@ -32,7 +34,7 @@ OUTPUT
 
 .shortcut file selected
 
-# ColorPicker
+## ColorPicker
 Choose a color from a tile of color files, or input a Color Hex Value
 This was originally done, by @heyitzspencer
 
@@ -43,7 +45,7 @@ OUTPUT
 
 Hex Value entered or selected
 
-# PercentageBars
+## PercentageBars
 INPUT
 ```
 - Process: PercentageBars
