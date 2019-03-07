@@ -36,10 +36,11 @@ OUTPUT
 
 ## ColorPicker
 Choose a color from a tile of color files, or input a Color Hex Value
-This was originally done, by @heyitzspencer
 
 INPUT
+```
 - Process: ColorPicker
+```
 
 OUTPUT
 
