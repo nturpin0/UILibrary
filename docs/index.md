@@ -20,7 +20,7 @@ Using a List Action in the Dictionary
 ![](imgs/IndexExampleOne.png)
 
 Using a Text Action in the Dictionary
-![](IndexExample2.png)
+![](imgs/IndexExample2.png)
 
 ### Menus
 - MenuList
