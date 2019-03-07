@@ -1,4 +1,4 @@
-# Choose Shortcut - Choose, or search a Shortcut
+# Choose Shortcut
 Shows a list of your Shortcuts in Alphabetical Order, with a Search function at the top.
 
 INPUT
@@ -8,7 +8,7 @@ INPUT
 OUTPUT
 .shortcut file selected
 
-# ColorPicker - Pick colors
+# ColorPicker
 Choose a color from a tile of color files, or input a Color Hex Value
 This was originally done, by @heyitzspencer
 
@@ -18,7 +18,7 @@ INPUT
 OUTPUT
 Hex Value entered or selected
 
-# PercentageBars - Show percentages
+# PercentageBars
 
 INPUT
 - Process: PercentageBars
@@ -42,7 +42,7 @@ OUTPUT
 Selected Item
 
 
-# MenuList - List with Icons you can use as a menu
+# MenuList
 MenuList
 Send lines of text to show a list with images, or just use it for a left justified menu with no images, or just use the name of an icon and dont use any images.
 
