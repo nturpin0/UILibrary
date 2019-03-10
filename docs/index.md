@@ -34,8 +34,10 @@ Using a Text Action in the Dictionary
 - Show List
 - Highlight
 - SpeedRead
-- Beep - A beep
+- Beep
+- Icon
 
 ### Tables
-
+- ShowTable
+- DataTables
 

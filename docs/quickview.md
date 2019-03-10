@@ -72,10 +72,7 @@ INPUT
 ```
 OUTPUT
 
-
-
-OUTPUT
-Generated html
+Generated html file
 
 
 ## Beep 
@@ -85,6 +82,15 @@ INPUT
 - Process: Beep
 OUTPUT
 None
+
+## Icon
+Returns a black icon as a transparent image, or as base 64
+
+```
+Process: Icon
+Icon: (required) name of an icon eg address-book
+Type: type to return Image/Base64
+```
 
 
 ## Timeline
@@ -102,4 +108,4 @@ INPUT
 ```
 
 OUTPUT
-html generated
+Generated html file

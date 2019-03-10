@@ -3,6 +3,9 @@
 ## MenuList
 Images in your lists/menu. Send lines of text to show a list with images, or just use it for a left justified menu with no images, or just use the name of an icon and dont use any images.
 
+You can retrieve either the Title, or the Subtitle selected from any of the menus except the P.
+
+
 [List of icons names that can be used](https://gist.github.com/nturpin0/32e74627f47da91dd9aa979506d6d8f7)
 
 INPUT
@@ -17,12 +20,28 @@ INPUT
 - Type: (optional) IconName
   - If IconName is used you can enter  a name of an icon rather than use the Base 64 encoded option
 ```
-
+OUTPUT
 
 Selected item as a vcf card
 
+## PercentageBars
+INPUT
+```
+- Process: PercentageBars
+- Title: (optional) Title to be shown above the list
+- Data: Data to be shown
+      - Data should be in the following format  Subtitle, PercentageAsNumber
+
+Q1 Sales,67
+Q2 Sales,89
+Q3 Sales,99
+```
 
 OUTPUT
+
+Selected Item as a vcf card.
+
+
 ## Choose Shortcut
 Shows a list of your Shortcuts in Alphabetical Order, with a Search function at the top.
 ```
@@ -46,22 +65,12 @@ OUTPUT
 
 Hex Value entered or selected
 
-## PercentageBars
-INPUT
+## Choose Reminder List
+Shows your Reminder lists and allow to select one/many.
+
 ```
-- Process: PercentageBars
-- Title: (optional) Title to be shown above the list
-- Data: Data to be shown
-      - Data should be in the following format  Subtitle, PercentageAsNumber
-
-Q1 Sales,67
-Q2 Sales,89
-Q3 Sales,99
+Process: ChooseReminderList
+Type: (optional)Multiple 
 ```
-
-OUTPUT
-
-Selected Item
-
 
 
