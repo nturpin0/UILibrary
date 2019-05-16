@@ -5,7 +5,7 @@
 
 ## What is it?
 UILibrary is a libary of routines in one Shortcut to be called from your own Shortcuts. It aims to help you quickly add functionality to any of your Shortcuts.
-You can find the Shortcut on routinehub https://routinehub.co/shortcut/2145
+You can find the Shortcut on routinehub [https://routinehub.co/shortcut/2145](https://routinehub.co/shortcut/2145)
 
 ## Demos
 - [Demo](https://www.icloud.com/shortcuts/4070691907eb47aba8fd034f2b8c671a) 
