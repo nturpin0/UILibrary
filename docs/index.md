@@ -8,6 +8,8 @@ UILibrary is a libary of routines in one Shortcut to be called from your own Sho
 You can find the Shortcut on routinehub [https://routinehub.co/shortcut/2145](https://routinehub.co/shortcut/2145)
 
 ## Demos
+Once youve downloaded the UILibrary Shortcut from Routinehub you can try the demos.
+
 - [Demo](https://www.icloud.com/shortcuts/4070691907eb47aba8fd034f2b8c671a) 
 - [Demo2](https://www.icloud.com/shortcuts/043fe8e172fb4d66b665aa9152b43181)
 
