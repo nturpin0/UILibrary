@@ -30,6 +30,8 @@ Using a Text Action in the Dictionary
 - Choose Shortcut
 - ColorPicker
 - PercentageBars
+- ChooseReminderList
+- PaginateList
 
 ### Quickview
 - Show Result
@@ -44,3 +46,7 @@ Using a Text Action in the Dictionary
 - ShowTable
 - DataTables
 
+```
+Changes: 
+1.1 Paginate List
+```

@@ -42,11 +42,11 @@ OUTPUT
 Selected Item as a vcf card.
 
 
-## Choose Shortcut
+## ChooseShortcut
 Shows a list of your Shortcuts in Alphabetical Order, with a Search function at the top.
 ```
 INPUT
-- Process: Choose Shortcut
+- Process: ChooseShortcut
 - Title: Text to be shown above the choose shortcut list.
 ```
 OUTPUT
@@ -70,7 +70,16 @@ Shows your Reminder lists and allow to select one/many.
 
 ```
 Process: ChooseReminderList
-Type: (optional)Multiple 
+Type: (optional)Single/Multiple  Use to select if returning allowing one or several reminder lists to be returned.
 ```
 
+## PaginateList
+Paginates a list, for using in a Widget so that you can use a next at the bottom to see the whole of the list.
+```
+INPUT
+- Process: PaginateList
+- List: Use a list action, a text action with items on new line, or a variable containing a list. 
+```
+OUTPUT
 
+item on list  file selected
