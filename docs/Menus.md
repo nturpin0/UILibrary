@@ -83,3 +83,15 @@ INPUT
 OUTPUT
 
 item on list  file selected
+
+
+## GetAllNotes
+Returns all the notes, as currently the Find Notes only returns 26. Use a choose from list immediately afterwards to choose from the notes, or search through them with a repeat action.
+''
+```
+INPUT
+- Process: GetAllNotes
+```
+OUTPUT
+Notes
+
